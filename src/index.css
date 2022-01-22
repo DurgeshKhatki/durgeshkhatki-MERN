@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  background-color: rgb(221, 238, 238);
+}
+h1{
+  width:500px;
+  margin: 0 auto;
+  background: rgb(214, 209, 209);
+  text-align: center;
+  
+  }
+  .optionsAre{
+   width:100%;
+   margin: 0 auto;
+  }
+  .selectOpt{
+    margin-left: 50%;
+  } 
+
+.cards{
+  width: 100%;
+  height: auto;
+  align-content: center;
+ }
+.cardImg {
+  margin: 75px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  width: 23.4%;
+  border-radius: 10px;
+  box-shadow:0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  float: left;
+  background-color: rgb(240, 238, 235); 
+}
+
+.cardImg:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cardDetails{
+  padding: 2px 16px;
+}
+
+.Detailing{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+.Detailing .imgDetails{
+  max-width: 500px;
+  min-width: 250px;
+  overflow: hidden;
+  margin: 30px;
+}
+.imgDetails img{
+  width: 500px;
+  height: 100%;
+  max-height: 400px;
+  display: block;
+  object-fit: cover;
+}
+.properties{
+max-width: 500px;
+min-width: 250px;
+margin: 25px;
+}
+.properties row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px; 
+}
